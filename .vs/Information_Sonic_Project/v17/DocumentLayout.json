@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BACKUP_Files\\Information_Sonic_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\entityscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entityscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|d:\\backup_files\\information_sonic_project\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\leveltitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\leveltitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\levellogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levellogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\ringscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\ringscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\bounceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\bounceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\cooltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\cooltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|d:\\backup_files\\information_sonic_project\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\characterprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\characterprefab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|D:\\BACKUP_Files\\Information_Sonic_Project\\assets\\scripts\\smallones\\characterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165DB46-9D4B-F542-72DB-AB83E1CF604F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallones\\characterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T16:08:55.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BounceEntity.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\BounceEntity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\BounceEntity.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\BounceEntity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\BounceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:01:02.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoolTransition.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CoolTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\CoolTransition.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CoolTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\CoolTransition.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T00:52:36.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CharacterUI.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CharacterUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\CharacterUI.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CharacterUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\CharacterUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:15:04.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharacterPrefab.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CharacterPrefab.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\CharacterPrefab.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\CharacterPrefab.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\CharacterPrefab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:02:41.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelTitle.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\LevelTitle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\LevelTitle.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\LevelTitle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\LevelTitle.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T22:40:19.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelLogic.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\LevelLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelLogic.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\LevelLogic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelLogic.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:26:21.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntityScript.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\EntityScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EntityScript.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\EntityScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EntityScript.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAewLsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:28:03.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RingScript.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\RingScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallOnes\\RingScript.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\SmallOnes\\RingScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallOnes\\RingScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:54:27.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerScript.cs",
+              "DocumentMoniker": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "D:\\BACKUP_Files\\Information_Sonic_Project\\Assets\\Scripts\\PlayerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:28:03.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
