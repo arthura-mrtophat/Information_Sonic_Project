@@ -145,7 +145,7 @@ public class PlayerScript : MonoBehaviour {
             entityScript.GroundSpeed -= roll_deceleration_speed * signSpeed;
     }
     private void CheckForSpin() {
-        if (CurrentAction == SonicActions.Spinning && Mathf.Abs(entityScript.GroundSpeed) <= .01f && entityScript.currentSensorRotation == Vector3.up) {
+        if (CurrentAction == SonicActions.Spinning && Mathf.Abs(entityScript.GroundSpeed) <= .01f && entityScript.IsRotationUp()) {
             CurrentAction = SonicActions.Grounded;
             entityScript.IgnoreFalloff = false;
             return;
@@ -186,16 +186,17 @@ public class PlayerScript : MonoBehaviour {
         entityScript.EntityAddVelocity += jumpVector;
     }
     public void SonicGotHurt(int damage) {
-        CharacterUICanvas.SendMessage("ChangeRingNumber", entityScript.EntityClass.Health);
         if (damage <= 0) {
+            CharacterUICanvas.SendMessage("ChangeRingNumber", entityScript.EntityClass.Health);
             return;
         }
-           playAudioClip(PlayableAudioSonic["Hurt"]);
+        playAudioClip(PlayableAudioSonic["Hurt"]);
         if (entityScript.EntityClass.Health > 1) {
             for (int _ = 0; _ < Mathf.Clamp(entityScript.EntityClass.Health+damage, 0, 15); _++) {
                 Instantiate(BouncyRing, transform.position, Quaternion.identity);
             }
             entityScript.EntityClass.Health = 1;
+            CharacterUICanvas.SendMessage("ChangeRingNumber", entityScript.EntityClass.Health);
             TakenControl = 100;
             StartInvuln = Time.fixedTime + 1000;
             StartOfTakenControl = Time.fixedTime + 100;

@@ -107,12 +107,12 @@ public class EntityScript : MonoBehaviour {
         if (checkCeiling && EntityAddVelocity.y > 0) EntityAddVelocity = Vector2.zero;
         if (checkWalls)
         {
-            GroundSpeed = 0;
-
             float direction = Mathf.Abs(GroundSpeed) > 0 ? Mathf.Sign(GroundSpeed) : Turn;
             float distance = Mathf.Abs(Collider2D.size.x / 2 + .05f) - checkWalls.distance;
             EntityVelocity = new(distance * -direction, EntityVelocity.y);
             EntityAddVelocity = new(0, EntityAddVelocity.y);
+
+            GroundSpeed = 0;
         }
 
         CurrentEnemyAction = !checkGrounded ? EEntityActions.Falling : EEntityActions.Idle;
@@ -158,8 +158,8 @@ public class EntityScript : MonoBehaviour {
 
     //Walls
     public RaycastHit2D CheckIfWall() {
-        if (currentSensorRotation != Vector3.up && currentSensorRotation != Vector3.down) return new RaycastHit2D();
-        float direction = Mathf.Abs(GroundSpeed) > 0 ? Mathf.Sign(GroundSpeed): 1;
+        if (!IsRotationUp()) return new RaycastHit2D();
+        float direction = (Mathf.Abs(GroundSpeed) > 0 ? Mathf.Sign(GroundSpeed): Turn);
 
         Vector3 adjustWithYSpeed = new(0,
             Mathf.Abs(EntityAddVelocity.y) <= 0.001f ? 0 : 
@@ -217,7 +217,7 @@ public class EntityScript : MonoBehaviour {
         return winningSensor;
     }
     public RaycastHit2D GetRayAtPosition(float Position, float Direction = 1, string AorB = "A") {
-        Vector3 directionDown = Direction * transform.up;
+        Vector3 directionDown = Direction * currentSensorRotation;
         var Ray = Physics2D.Raycast(Collider2D.bounds.center + (Vector3)EntityVelocity - new Vector3(Direction * directionDown.y * Position, directionDown.x * Direction * Position), directionDown, Collider2D.size.y / 2 + .2f, 1 << 3);
         Debug.DrawRay(Collider2D.bounds.center + (Vector3)EntityVelocity - new Vector3(Direction * directionDown.y * Position, directionDown.x * Direction * Position), directionDown * (Collider2D.size.y / 2 + .2f), Direction < 0? Position < 0 ? Color.magenta : Color.yellow : Color.red);
         //Debug.DrawLine(Collider2D.bounds.center + (Vector3)EntityVelocity - new Vector3(Direction * directionDown.y * Position, directionDown.x * Direction * Position), Ray.point, Direction < 0 ? AorB == "A" ? Color.magenta : Color.yellow : Color.red);
@@ -231,14 +231,18 @@ public class EntityScript : MonoBehaviour {
     //Other
     public Vector3 CurrentRotation() {
         if (DontRotateSensors) return Vector3.up;
-        float groundAngle = GetGroundAngle();
-        Vector3 newRotation;
-        if (Mathf.Abs(groundAngle) <= 48) newRotation = Vector3.up;
-        else if (groundAngle > 48 && groundAngle <= 125) newRotation = Vector3.right;
-        else if (groundAngle > -125 && groundAngle < -45) newRotation = Vector3.left;
-        else newRotation = Vector3.down;
+        //float groundAngle = GetGroundAngle();
+        Vector3 newRotation = transform.up;
+        //if (Mathf.Abs(groundAngle) <= 48) newRotation = Vector3.up;
+        //else if (groundAngle > 48 && groundAngle <= 125) newRotation = Vector3.right;
+        //else if (groundAngle > -125 && groundAngle < -45) newRotation = Vector3.left;
+        //else newRotation = Vector3.down;
 
         return newRotation;
+    }
+    public bool IsRotationUp() {
+        float groundAngle = GetGroundAngle();
+        return Mathf.Abs(groundAngle) <= 48;
     }
 }
 

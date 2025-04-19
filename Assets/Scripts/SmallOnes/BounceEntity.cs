@@ -27,7 +27,7 @@ public class BounceEntity : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        spriteRenderer.enabled = Mathf.Round(Time.time) % 2 == 0;
+        spriteRenderer.enabled = Mathf.Round(Time.time*10) % 2 == 0;
         entityScript.GroundSpeed -= friction_speed * MathF.Sign(entityScript.GroundSpeed);
         bool ground = entityScript.CheckIfGrounded();
         bool ceiling = entityScript.CheckIfCeiling();
